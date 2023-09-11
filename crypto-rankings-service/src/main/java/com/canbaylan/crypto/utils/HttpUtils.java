@@ -8,7 +8,7 @@ import java.util.Collections;
 
 public class HttpUtils {
     private static String apiHost = "coinranking1.p.rapidapi.com";
-    private static String apiKey = "API_KEY_SECRET";
+    private static String apiKey = "API KEY SECRET";
 
     public static HttpEntity<String> getHttpEntity(){
         HttpHeaders headers = new HttpHeaders();
